@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.card{
+    width: 350px;
+    min-height: fit-content;
+    margin: auto;
+    box-shadow: 0 4px 4px rgb(0 0 0/15%);
+    border-radius: 4px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.class-time{
+    background-color: #fe6d3f;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.year{
+    background-color: #ef5321;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.class-year{
+    padding: 3px 0px;
+}
+.date{
+    font-size: 40px;
+}
+.month{
+    padding-bottom: 20px;
+}
+.name-course{
+    text-decoration: none;
+    color: #464646;;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+a.name-course:hover{
+    text-decoration: underline;
+}
+.common-infor{
+    padding: 9px;
+    border-bottom: 1px solid rgb(55, 52, 52);
+    margin-bottom: 10px;
+    width: 330px;
+    margin: auto;
+}
+.infor{
+    font-weight: 300;
+    font-size: .9rem;
+    color: #464646;
+    padding: 5px 0px;
+}
+.register{
+    padding: 10px;
+    color: #3c78e8;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: none;
+}
+p.infor>i{
+    padding-right: 5px;
+    color: #7d7777;
+}
