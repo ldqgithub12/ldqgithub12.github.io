@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
+}
+.item{
+    background-color: bisque;
+    color: #fff;
+    font-size: 2rem;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-1{
+    order: 4;
+    flex-basis: 200px;
+    align-self: flex-end;
+}
+.item-3{
+    order: 5;
+}
+.item-4{
+    order: -1;
+}
