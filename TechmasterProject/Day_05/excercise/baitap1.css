@@ -31,6 +31,11 @@ img{
     display: block;
     margin: auto;
 }
+.card-img{
+    width: 100%;
+    height: 17em;
+    overflow: hidden;
+}
 .card-image{
     width: 100%;
 }
@@ -91,8 +96,8 @@ img{
 ul>li{
     list-style: none;
     color: white;
-    height: 35px;
-    line-height: 35px;
+    padding: 10px;
+    display: block;
 }
 ul>li>a{
     color: white;
@@ -103,7 +108,7 @@ ul>li>a:hover{
 }
 .social-link{
     margin: 20px 0px 0px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 ul.social{
     display: flex;
