@@ -1,0 +1,45 @@
+@import url('./footer.css');
+@import url('./quaylaitc.css');
+@import url('./chung.css');
+h3,h2{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+strong{
+    font-weight: bolder;
+}
+.course-description>a{
+    color: #007bff;
+    text-decoration: none;
+}
+.course-description>a:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+li, li p {
+    margin-bottom: 8px;
+}
+.page-body{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.body-content{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+}
+.course-title{
+    text-align: center;
+}
+.ml-20{
+    margin-left: 40px;
+}
+ul.outline>li{
+    list-style: none;
+}
+
+
+

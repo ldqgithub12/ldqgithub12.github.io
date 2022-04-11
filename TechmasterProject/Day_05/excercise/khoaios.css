@@ -1,0 +1,69 @@
+@import url('./chung.css');
+@import url('./footer.css');
+@import url('./quaylaitc.css');
+ul.lydo{
+    margin-left: 10px;
+}
+ul.lydo>li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+ul.lydo>li>i{
+    color: #f03a17;
+}
+strong{
+    font-weight: bolder;
+}
+h2, h3 {
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+h3 {
+    font-size: 1.75rem;
+}
+h1, h2, h3{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.body-content>p{
+    margin-bottom: 15px;
+}
+.dinhdang>a {
+    color: #007bff;
+    text-decoration: none;
+}
+.dinhdang>a:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+.tenkhoa{
+    font-size: 2rem;
+}
+ul.motakhoahoc{
+    margin-left: 10px;
+}
+ul.motakhoahoc>li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+ul.motakhoahoc>li>i{
+    color:#ffc107
+}
+ul.ml-10{
+    margin-left: 30px;
+}
+ul.ml-10>li{
+    margin-bottom: 15px;
+}
+ul.diemnoibat{
+    margin-left: 10px;
+
+}
+ul.diemnoibat>li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+ul.diemnoibat>li>i{
+    color:#ffc107
+}
