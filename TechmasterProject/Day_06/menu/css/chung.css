@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f7fa;
+    font-family: 'Roboto';
+    color: #464646;
+}
+.page-body{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.body-content{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+}
+.course-title{
+    text-align: center;
+}
+.ml-20{
+    margin-left: 40px;
+}
+.course-title{
+    text-align: center;
+}
