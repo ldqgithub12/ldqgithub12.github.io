@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    .edu-card{
+        width: 500px;
+        background-color: red;
+        height: 70px;
+        overflow: hidden;
+        transition: all 1s;
+    }
+    .edu-card h1{
+        background-color: yellow;
+        padding: 10px 0px 2px 0px;
+        text-align: center;
+    }
+    .edu-card h1 span{
+        display: none;
+    }
+    .edu-card p {
+        transform: translateY(200px);
+        transition: all 1s;
+    }
+    .edu-card:hover{
+        height: 150px;
+
+    }
+    .edu-card:hover span{
+        display: inline-block;
+    }
+    .edu-card:hover p{
+        transform: translateY(0);
+        
+    }
+</style>
+<body>
+    <div class="edu-card">
+        <h1>Bằng kỹ sư khoa học máy tính <span><i class="fa-solid fa-caret-down"></i></span></h1>
+        
+        <p>Được trường đại học công nghiệp hà nội cấp ngày 16/9/2022</p>
+    </div>
+</body>
+</html>

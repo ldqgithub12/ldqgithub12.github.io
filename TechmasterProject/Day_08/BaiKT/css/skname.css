@@ -1,0 +1,235 @@
+.skill-name{
+    width: 40%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid rgb(64, 84, 176);
+   background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.skill-name p{
+    position: relative;
+    z-index: 1;
+}
+.skill-name::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(64, 84, 176);
+    transition: all 1s;
+    border-radius: 18px;
+}
+.skill-name:hover::before{
+    left: 0px;
+}
+.skill-name-java{
+    width: 40%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid #d35400;
+   background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.skill-name-java p{
+    position: relative;
+    z-index: 1;
+}
+.skill-name-java::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 70%;
+    height: 100%;
+    background-color: #d35400;
+    transition: all 1s;
+    border-radius: 18px;
+}
+.skill-name-java:hover::before{
+    left: 0px;
+}
+.skill-name-csharp{
+    width: 40%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid #a84cb8;
+   background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.skill-name-csharp p{
+    position: relative;
+    z-index: 1;
+}
+.skill-name-csharp::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 70%;
+    height: 100%;
+    background-color: #a84cb8;
+    transition: all 1s;
+    border-radius: 18px;
+}
+.skill-name-csharp:hover::before{
+    left: 0px;
+}
+.skill-name-c{
+    width: 40%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid #f9bf3f;
+   background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.skill-name-c p{
+    position: relative;
+    z-index: 1;
+}
+.skill-name-c::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 90%;
+    height: 100%;
+    background-color: #f9bf3f;
+    transition: all 1s;
+    border-radius: 18px;
+}
+.skill-name-c:hover::before{
+    left: 0px;
+}
+
+.skill-name-sql{
+    width: 40%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid #ec5453;
+   background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.skill-name-sql p{
+    position: relative;
+    z-index: 1;
+}
+.skill-name-sql::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100%;
+    background-color: #ec5453;
+    transition: all 1s;
+    border-radius: 18px;
+}
+.skill-name-sql:hover::before{
+    left: 0px;
+}
+.skill-name-python{
+    width: 40%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid #3572A5 ;
+   background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.skill-name-python p{
+    position: relative;
+    z-index: 1;
+}
+.skill-name-python::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100%;
+    background-color: #3572A5 ;
+    transition: all 1s;
+    border-radius: 18px;
+}
+.skill-name-python:hover::before{
+    left: 0px;
+}
+
+.skill-name-js{
+    width: 40%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid #f9bf3f;
+   background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.skill-name-js p{
+    position: relative;
+    z-index: 1;
+}
+.skill-name-js::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background-color: #f9bf3f;
+    transition: all 1s;
+    border-radius: 18px;
+}
+.skill-name-js:hover::before{
+    left: 0px;
+}
+
+.skill-name-ds{
+    width: 40%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid #2fa499;
+   background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.skill-name-ds p{
+    position: relative;
+    z-index: 1;
+}
+.skill-name-ds::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100%;
+    background-color: #2fa499;
+    transition: all 1s;
+    border-radius: 18px;
+}
+.skill-name-ds:hover::before{
+    left: 0px;
+}
