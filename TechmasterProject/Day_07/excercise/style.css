@@ -68,6 +68,10 @@ img{
     z-index: 2;
     transition: height 0.75s;
 }
+.color-text{
+    color: #666666;
+    opacity: 1;
+}
 .photos{
     position: absolute;
     left: 0px;

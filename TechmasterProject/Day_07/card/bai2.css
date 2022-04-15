@@ -33,6 +33,7 @@ img{
     transform: translateY(270px);
     transition: all 1s;
 }
+
 .card:hover .card-content{
     transform: translateY(0);
 }
