@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 16px 50px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 50%;
+    background-color: tomato;
+    transition: all 2s;
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 50%;
+    background-color: tomato;
+    transition: all 2s;
+}
+.btn span{
+    position: relative;
+    z-index: 3;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn:hover::before{
+    left: 0px;
+}
+.btn:hover::after{
+    right: 0px;
+}
