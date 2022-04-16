@@ -1,5 +1,6 @@
 @import url('./skname.css');
 @import url('../css/card.css');
+@import url('./tree.css');
 *{
     margin: 0px;
     padding: 0px;

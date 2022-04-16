@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tree{
+   width: 500px;
+   padding: 20px;
+   margin-left: 55%;
+   position: relative;
+}
+.tree::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -70px;
+    width: 10px;
+    height: 750px;
+    background-color: black;
+}
+.tree-content{
+    margin-top: 10px;
+    width: 400px;
+    min-height: 200px;
+    border-radius: 6px;
+    box-shadow: 0 0 7px rgb(0 0 0 / 30%);
+    position: relative;
+    text-align: center;
+}
+.tree-content::before{
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: -100px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fe9917;
+}
+.tree-content>h2{
+    background-color: #fe9917; 
+    padding: 10px 0px;
+    border-radius: 6px;
+}
+.tree-content>p{
+    padding: 10px;
+}
+
+/* Thử nghiệm */
+.tree-content-after{
+    margin-top: 10px;
+    width: 400px;
+    margin-left: -567px;
+    min-height: 200px;
+    border-radius: 6px;
+    box-shadow: 0 0 7px rgb(0 0 0 / 30%);
+    position: relative;
+    text-align: center;
+}
+.tree-content-after::before{
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: -100px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fe9917;
+}
+.tree-content-after>h2{
+    background-color: #fe9917; 
+    padding: 10px 0px;
+    border-radius: 6px;
+}
+.tree-content-after>p{
+    padding: 10px;
+}
+
