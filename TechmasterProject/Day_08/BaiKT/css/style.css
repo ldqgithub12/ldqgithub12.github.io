@@ -1,4 +1,5 @@
 @import url('./skname.css');
+@import url('../css/card.css');
 *{
     margin: 0px;
     padding: 0px;
@@ -29,7 +30,7 @@ ul{
     width: 100%;
     height: 50px;
     position: fixed;
-    z-index: 4;
+    z-index: 6;
     background-color: #fff;
 }
 .menu-content{
@@ -172,7 +173,7 @@ ul{
 .edu-content{
     width: 80%;
     margin: auto;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -214,4 +215,64 @@ ul{
 }
 .edu-card:hover p{
     transform: translateY(0);
+}
+#project{
+    background-color: #fe9917;
+}
+.pro-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.contact-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.contact-img{
+    width: 50%;
+}
+.contact-form{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.contact-card{
+    width: 100%;
+    background-color: #fff;
+    margin-left: -100px;
+    border-radius: 6px;
+    box-shadow: 0 0 7px rgb(0 0 0 / 30%);
+    padding: 30px;
+}
+.contact-card>h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    color: #666;
+}
+ul.socil{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+ul.socil i{
+    padding-right: 10px;
+    font-size: 24px;
+    color: #fe9917;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #fe9917;
+    font-size: 24px;
+    color: #f2f3f7;
+    font-weight: 500;
 }
